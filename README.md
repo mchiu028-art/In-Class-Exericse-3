@@ -8,9 +8,6 @@
 + Find all the “warning”s case insensitive
 + Find all the lines NOT containing “INFO”
 + Find all the lines that match the whole word “ERROR”
-+ Find all the email addresses in the contacts file
-+ Find all the script tags in the html files
-+ Find all the Exceptions and include 1 line before and 2 lines of text after
 
 # Part 2 Sed
 ## Tasks
