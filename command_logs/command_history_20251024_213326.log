@@ -1,0 +1,15 @@
+[2025-10-24 21:33:26] [/workspaces/In-Class-Exericse-3] source .devcontainer/shell.sh
+[2025-10-24 21:36:19] [/workspaces/In-Class-Exericse-3] grep -c "ERROR" logfile.txt
+[2025-10-24 21:36:44] [/workspaces/In-Class-Exericse-3] grep -i "warning" logfile.txt
+[2025-10-24 21:37:34] [/workspaces/In-Class-Exericse-3] grep -v "INFO" logfile.txt
+[2025-10-24 21:37:51] [/workspaces/In-Class-Exericse-3] grep -v "INFO" logfile.txt
+[2025-10-24 21:38:19] [/workspaces/In-Class-Exericse-3] grep -w "ERRORS" logfile.txt
+[2025-10-24 21:38:30] [/workspaces/In-Class-Exericse-3] grep -w "ERROR" logfile.txt
+[2025-10-24 21:40:08] [/workspaces/In-Class-Exericse-3] sed -n "10,20p" sed_practice_file.txt
+[2025-10-24 21:40:55] [/workspaces/In-Class-Exericse-3] sed "s/^$/d"
+[2025-10-24 21:42:19] [/workspaces/In-Class-Exericse-3] sed "s/apple/orange/g
+[2025-10-24 21:45:15] [/workspaces/In-Class-Exericse-3] awk 'BEGIN {sum += $3} END {print sum/NR}' employees.txt
+[2025-10-24 21:46:50] [/workspaces/In-Class-Exericse-3] awk '$3 == 404 || $3 == 500"
+[2025-10-24 21:47:01] [/workspaces/In-Class-Exericse-3] awk '$3 == 404 | | $3 == 500"
+[2025-10-24 21:47:14] [/workspaces/In-Class-Exericse-3] awk '$3 == 404 | | $3 == 500" serverlog.txt
+[2025-10-24 21:47:21] [/workspaces/In-Class-Exericse-3] awk '$3 == 404 || $3 == 500" serverlog.txt
